@@ -1,0 +1,5 @@
+yfinance 
+seaborn 
+pandas
+jinja2
+plotly
