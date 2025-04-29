@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 
 
 
-st.set_page_config(page_title="Broad Currencies Analysis")
+st.set_page_config(page_title="Broad Currencies Analysis", layout="wide")
 
 
 def main(): 
@@ -71,6 +71,7 @@ def main():
     'USDARS' : 0.5,
     'USDRUB' : 0.5,
     'USDSEK': 0.5,
+    'BROAD_Index': 100
     }
 
     windows = {

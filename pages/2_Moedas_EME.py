@@ -6,13 +6,11 @@ import matplotlib.pyplot as plt
 import plotly.express as px 
 import plotly.graph_objects as go 
 
-st.set_page_config(page_title="EME Currencies Analysis")
+st.set_page_config(page_title="EME Currencies Analysis", layout="wide")
 
 def main(): 
    
-
-
-
+   
     tickers_EME = {
     'USDCNY' : 'CNY=X',
     'USDMXN' : 'MXN=X',
