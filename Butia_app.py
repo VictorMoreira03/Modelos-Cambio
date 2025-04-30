@@ -1,5 +1,8 @@
 import streamlit as st
 
+# --- Shared on All Pages --- ##
+st.logo("assets/butialogo.png")
+
 ##---- PAGE SETUP ----##
 
 DXY = st.Page(page= "pages/1_Moedas_DXY.py",title="DXY Currencies Analysis", default=True)
@@ -28,11 +31,7 @@ pg = st.navigation(
     }
 )
 
-# --- Shared on All Pages --- ##
-st.logo("assets/butialogo.png")
-
 # st.sidebar.text("Fonte: Yahoo Finance")
 # st.sidebar.text("Feito para uso interno")
-
 
 pg.run()
